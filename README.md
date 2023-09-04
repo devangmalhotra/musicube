@@ -7,10 +7,11 @@ Made with ```Python```, ```HTML```, ```Flask```, and ```CSS```.
 
 ---
 ## How do I use Musicube?
+* Open ```config.ini``` and enter your ```client ID``` and ```client secret``` to use Spotify's API
 * Open ```main.py``` and run the program
-* Open the localhost which will show the homepage.
+* Open the localhost which will show the homepage
 * Enter the YouTube link for any song
-* The final tagged song will be downloaded to the user's ```downloads``` folder.
+* The final tagged song will be downloaded to the user's ```downloads``` folder
 
 <p align="center">
     <img src="https://github.com/devangmalhotra/musicube/assets/119973585/4be1d799-b8e3-4ffa-aa74-ca9dc0a9c1db" alt="drawing" width="1000"/>
