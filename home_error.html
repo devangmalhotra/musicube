@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        h1 {
+            font-family:"Poppins";
+        }
+        body {
+            height: 100%;
+            width: 100%;
+            background-image: linear-gradient(#F5FCFF, #DBF3FA);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        p{
+            font-family:"Poppins", sans-serif;
+        }
+        
+        h2{
+            font-family:"Poppins", sans-serif;
+            color: #cc0000;
+        }
+
+        input[name="link"]{
+            font-family:"Poppins", sans-serif;
+            border: none;
+            background: #fff;
+            padding: 12px;
+            border-radius: 3px;
+            width: 250px;
+            outline: none;
+        }
+
+        input[name="link"]:focus::placeholder{
+            color: transparent;
+        }
+
+        input[name="link"]::placeholder{
+            color: #222;
+            transition: color 0.3s ease;
+        }
+
+        input[type='submit']{
+            font-family:"Poppins", sans-serif;
+            background: #fff;
+            padding: 12px;
+            border-radius: 3px;
+            width: 250px;
+        }
+        
+        div{
+            line-height: 250px;
+        }
+
+        h3{
+            font-family:"Poppins", sans-serif;
+            font-size: x-small;
+            font-weight: 500;
+        }
+        
+    </style>
+    <head>
+        <Title>Musicube</Title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class='bg-container'>
+            <h1 style="text-align:center; position: relative; bottom: 50px;">Musicube</h1>
+        </div>
+        <h2 style="text-align:center">This is an invalid link, please try again.</h2>
+        <p style="text-align:center">Insert link of YouTube video:</p>
+        <form method="post" action=".">
+            <p style="text-align:center"><input name="link" placeholder="Enter YouTube Link"/></p>
+            <p style="text-align:center"><input type="submit" value="Create mp3 File"/></p>
+        </form>
+        <h3 style="left: 645px; position: fixed; bottom: 50px;">Developed by Devang Malhotra</h3>
+    </body>
+</html>
